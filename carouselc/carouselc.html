@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <title>Document</title>    
+    <link rel="stylesheet" href="./carouselc.css">
+    <script src="./carouselc.js"></script>
+    <style> 
+        .descr{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+            font-weight: 900;
+            background-color: black;
+            color: white;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+<div>    
+    <div id="contcarouselc" class="contcarouselc">
+        <a href="#contcarouselc"  class="contcarouselc-control-ant" id="contcarouselc-Ant" onclick="carouselcAnterior()">
+            <span >&#10094;</span>
+        </a>
+        <a href="#contcarouselc" class="contcarouselc-control-sig" id="contcarouselc-Sig" onclick="carouselcSiguiente()">
+            <span>&#10095;</span>
+        </a>
+    
+        <div id="carouselc-inner" class="carouselc-inner" >
+
+            <div class="carouselc-item" data-id="1">
+                <div class="producto-item">
+                    <img src="pl1.png" class="carouselc-inner-img" alt="">
+                    <div class="descr">mercury</div>
+                </div>
+
+            </div>
+            <div class="carouselc-item" data-id="2">
+                <div class="producto-item">
+                    <img src="pl2.png" class="carouselc-inner-img" alt="">
+                    <div class="descr">venus</div>
+                </div>
+            </div>
+            <div class="carouselc-item" data-id="3">
+                <div class="producto-item">
+                    <img src="pl3.png" class="carouselc-inner-img" alt="">
+                    <div class="descr">earth</div>
+                </div>
+            </div>
+            <div class="carouselc-item" data-id="4">
+                <div class="producto-item">
+                    <img src="pl4.png" class="carouselc-inner-img" alt="">
+                    <div class="descr">mars</div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+</body>
+</html>

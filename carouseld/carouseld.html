@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./carouseld.css">
+    <script src="./carouseld.js"></script>    
+    <style> 
+        body{            
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+<body >
+<div>
+    <div id="contcarouseld1" class="contcarouseld">
+        <a href="javascript:void(0)"  class="contcarouseld-control-ant" id="contcarouseld-Ant" onclick="carouseldAnterior(this)">
+            <span>&#10094;</span>
+        </a>
+        <a href="javascript:void(0)" class="contcarouseld-control-sig" id="contcarouseld-Sig" onclick="carouseldSiguiente(this)">
+            <span>&#10095;</span>
+        </a>
+    
+        <div id="carouseld-inner" class="carouseld-inner">
+            <div class="carouseld-item" data-id="1">
+                <div class="producto-item">
+                    <img src="./rem1.jpg" class="producto-imagen"/> 
+                </div>                
+            </div>
+            <div class="carouseld-item" data-id="2">
+                <div class="producto-item">
+                    <img src="./rem2.jpg" class="producto-imagen"/> 
+                </div>                
+            </div>
+            <div class="carouseld-item" data-id="3">
+                <div class="producto-item">
+                    <img src="./rem3.jpg" class="producto-imagen"/> 
+                </div>                
+            </div>
+            <div class="carouseld-item" data-id="4">
+                <div class="producto-item">
+                    <img src="./rem4.jpg" class="producto-imagen"/> 
+                </div>                
+            </div>
+
+            
+        </div>
+    </div>    
+</div>
+</body>
+</html>
